@@ -16,4 +16,4 @@ class Solution:
                     kmin = min(kmin, kgrid[t] - kgrid[t - 1])
                 if kmin != float("inf"):
                     res[i][j] = kmin
-        return res      
+        return res

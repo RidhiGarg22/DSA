@@ -15,4 +15,4 @@ class Solution:
             x += dx
             y += dy
 
-        return [x, y] == [0, 0]       
+        return [x, y] == [0, 0]      

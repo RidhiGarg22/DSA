@@ -30,4 +30,4 @@ class Solution:
         res = 0
         for x in nums:
             res ^= x
-        return res      
+        return res       

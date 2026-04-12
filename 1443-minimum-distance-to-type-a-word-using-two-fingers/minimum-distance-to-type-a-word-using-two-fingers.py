@@ -25,4 +25,4 @@ class Solution:
                         dp[i][j][cur] = min(dp[i][j][cur], dp[i - 1][j][k] + d0)
 
         ans = min(min(dp[n - 1][x]) for x in range(26))
-        return ans
+        return ans      
